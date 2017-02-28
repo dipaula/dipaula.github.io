@@ -29,6 +29,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
+  background: #fff;
 }
 
 
@@ -47,6 +48,24 @@ header {
     font-style: italic;
   }
 
+/* ========================================================================== */
+/* footer */
+/* ========================================================================== */
+footer {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background: #eee;
+}
+  footer > div {
+    margin: 0 auto;
+  }
+  [itemprop='streetAddress'] {
+    display: block;
+  }
+  [itemprop='addressLocality']:after {
+    content: ', ';
+  }
 
 /* ========================================================================== */
 /* navigation */
@@ -93,7 +112,12 @@ h1 {
 /* content */
 /* ========================================================================== */
 .content-wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1180px;
   display: flex;
+  flex-flow: wrap;
 }
 main {
   flex: 0 1 auto;
@@ -103,10 +127,14 @@ main {
 aside {
   flex: 0 1 auto;
   order: 2;
-  width: 33.33%;
+  width: 100%;
 }
-@media (min-width: 800px) {
+
+@media only screen and (min-width: 800px) {
+  main {
+    width: calc(100% - 300px);
+  }
   aside {
-    width:100%;
+    width: 300px;
   }
 }
