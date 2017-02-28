@@ -27,11 +27,11 @@ jQuery(function($) {
 
     HOME = {
         init: function() {
-            this.testing();
+            // this.testing();
         },
         testing: function() {
             $('body').each(function() {
-              console.log("testing");
+              // console.log("testing");
             });
         }
     };
