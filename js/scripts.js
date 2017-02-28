@@ -13,9 +13,11 @@ jQuery(function($) {
             $('nav').each(function() {
               $(this).append(
                 '<ul>'+
-                  '<li><a href="/">Home</a></li>'+
-                  '<li><a href="/about">About</a></li>'+
-                  '<li><a href="/products">Products</a></li>'+
+                  '<li class="home"><a href="/">Home</a></li>'+
+                  '<li class="about"><a href="/about">About</a></li>'+
+                  '<li class="products"><a href="/products">Products</a></li>'+
+                  '<li class="recipes"><a href="/recipes">Recipes</a></li>'+
+                  '<li class="how-to"><a href="/recipes">How To...</a></li>'+
                 '</ul>'
               );
             });
