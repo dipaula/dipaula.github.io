@@ -9,7 +9,7 @@ jQuery(function($) {
         init: function() {
             this.setup();
         },
-        testing: function() {
+        setup: function() {
             $('nav').each(function() {
               $(this).append(
                 '<ul>'+
