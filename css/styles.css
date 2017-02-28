@@ -92,15 +92,21 @@ h1 {
 /* ========================================================================== */
 /* content */
 /* ========================================================================== */
-#content {
+.content-wrapper {
   display: flex;
 }
 main {
   flex: 0 1 auto;
   order: 1;
+  width: 100%;
 }
 aside {
   flex: 0 1 auto;
   order: 2;
   width: 33.33%;
+}
+@media (min-width: 800px) {
+  aside {
+    width:100%;
+  }
 }
