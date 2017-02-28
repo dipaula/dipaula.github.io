@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans');
+
+html {
+  background: #eee;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+}
