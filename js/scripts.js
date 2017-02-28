@@ -17,7 +17,7 @@ jQuery(function($) {
                   '<li class="about"><a href="/about">About</a></li>'+
                   '<li class="products"><a href="/products">Products</a></li>'+
                   '<li class="recipes"><a href="/recipes">Recipes</a></li>'+
-                  '<li class="how-to"><a href="/recipes">How To...</a></li>'+
+                  '<li class="how-to"><a href="/how-to">How To...</a></li>'+
                 '</ul>'
               );
             });

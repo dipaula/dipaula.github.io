@@ -46,6 +46,15 @@ nav {
         padding: 10px;
       }
 
+      /* active links */
+      body.home nav li.home a,
+      body.about nav li.about a,
+      body.products nav li.products a,
+      body.recipes nav li.recipes a,
+      body.how-to nav li.how-to a {
+        font-weight: bold;
+      }
+
 h1 {
   font-family: 'Crimson Text', serif;
 }
